@@ -1,6 +1,7 @@
 body
 {
     margin: 0px;
+<<<<<<< HEAD
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -35,4 +36,16 @@ a
     background-color:rgb(208,132,34);
     color: #fff;
     margin: 40px;
+=======
+}
+.topbar
+{
+    background-color: #0163c4;
+    width: 100%;
+    height: 40px;
+}
+.ctopbar
+{
+    
+>>>>>>> 4e3468f6080924ff09e84c5ebebb21a89a6fa15b
 }
