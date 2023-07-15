@@ -1,0 +1,274 @@
+
+.top-bar {
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(to right, #00bfff, #00ffd5);
+}
+
+.contact-info, .phone-info {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+/* .fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+
+.facebook {
+    background: #3B5998;
+    color: white;
+    float: left;
+    width: 30px;
+    height: 10%;
+  }
+  
+ 
+
+.instagram {
+    background: #55ACEE;
+    color: white;
+    float: left;
+  }
+  
+
+.youtube {
+    background: #bb0000;
+    color: white;
+    float: left;
+    b
+  } */
+
+.main-menu {
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(to right, #ff4b2b, #ff416c, #ff4b2b, #ff7519, #ffb900);
+}
+
+.menu-item {
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+.top-bar {
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(to right, #00bfff, #00ffd5);
+}
+
+.contact-info, .phone-info {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.main-menu {
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(to right, #ff4b2b, #ff416c, #ff4b2b, #ff7519, #ffb900);
+}
+
+.menu-item {
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+/* section - 2 */
+.marquee-div{
+    width:100%;
+    height: 200px; 
+    float:left
+}
+
+.marquee1{
+    width:100%;
+    direction:ltr;
+    height:100%
+}
+
+
+
+/* section -2 */
+.content1{
+    font-family: JosefinSans;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    text-align: justify;
+    width:60%;
+    height: 400px; 
+    float:left
+}
+
+.heading1{
+    text-align: center;
+}
+
+
+#id1{
+    font-size: 28px;
+    font-family: JosefinSans;
+    font-weight: 400;
+    color: #1d2025;
+    margin: 0px;
+}
+#id2{
+    text-align: left!important;
+    font-size: 28px;
+    font-family: JosefinSans;
+    font-weight: 400;
+    color: red;
+}
+
+
+
+
+
+
+/* Style for the registration form */
+
+.form1{
+    font-family: JosefinSans;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    text-align: justify;
+    width:40%;
+    height: 400px; 
+    float:left
+}
+
+h2 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+ 
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+
+  textarea {
+    width: 100%;
+    
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    height:30px ;
+  }
+
+
+  /* Our Courses */
+  .our_courses_div{
+    background-color: darkgrey;
+    height: 700px;
+    width: 100%;
+    float: left;
+  }
+
+  .heading2{
+    text-align: center;
+    height: 100px; 
+  }
+ 
+  .container {
+    text-align: center;
+    float: left;
+  }
+  
+  .container img {
+    width: 280px;
+  }
+  
+  .container h2 {
+    margin-top: 10px;
+  }
+
+/* NEW BATCHES */
+.New_Batches{
+    background-color:azure;
+    height: 400px;
+    width: 100%;
+    float: left;
+  }
+
+  #tableid {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 400px;
+}
+
+#Thead{
+    background-color: cornflowerblue;
+}
+
+/* Training modes  */
+.training_mode_div{
+    background-color: darkgrey;
+    height: 400px;
+    width: 100%;
+    float: left;
+}
+
+.container1 {
+    height: 100px;
+    width: 25%;
+    float: left;
+    
+  }
+  
+  .container1 img {
+    height: 100px;
+    width: 25%;
+  }
+  
+
+  /* FOOTER  */
+  footer {
+    width: 100%;
+    height: 150px;
+  }
+  
+  .footer-container {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    padding: 0 20px;
+  }
+  
+  .left-section,
+  .right-section {
+    height: auto;
+    width: 50%;
+  }
+  
+  .designer {
+    text-align: right;
+    margin: 0;
+  }
+  
