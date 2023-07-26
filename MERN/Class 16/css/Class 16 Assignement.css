@@ -1,42 +1,7 @@
 body
 {
     margin: 0px;
-<<<<<<< HEAD
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.topbar
-{
-    background-color: #0163c4;
-    width:100%;
-    height:40px;
-}
-.ctopbar
-{
-    width:100%;
-    float:left;
-}
-.ctopbar ul li
-{
-    display: inline;
-    padding-right: 40px;
-}
-a  
-{
-    text-decoration: none;
-}
-.ctopbar ul li a
-{
-    color:#fff;
-    font-weight:500;
-}
-.ctopbar button
-{
-    float: right;
-    background-color:rgb(208,132,34);
-    color: #fff;
-    margin: 40px;
-=======
 }
 .topbar
 {
@@ -44,8 +9,224 @@ a
     width: 100%;
     height: 40px;
 }
-.ctopbar
+.ctopbar 
 {
-    
->>>>>>> 4e3468f6080924ff09e84c5ebebb21a89a6fa15b
+    width: 50%;
+    float:left;
+}
+.ctopbar ul
+{
+    margin: 0px;
+    padding-top: 10px;
+}
+.ctopbar ul li
+{
+    display: inline; 
+    padding-right: 40px;
+}
+a
+{
+    text-decoration: none;
+}
+.ctopbar ul li a
+{
+    color:#fff;
+    font-weight: 500px;
+}
+.ctopbar button
+{
+    float:right;
+    background-color: rgb(208, 132, 34);
+    color: #fff;
+    margin-right: 40px;
+    border:0px;
+    width: 200px;
+    height:40px;
+}
+.ctopbar button:hover
+{
+    background-color: rgb(175, 109, 23) ;
+}
+.navbar
+{
+    width: 100%;
+    height: 90px;
+}
+.logo
+{
+    width: 30%;
+    float: left;
+}
+.navigation
+{
+    width: 70%;
+    float: left;
+}
+.navigation ul li
+{
+    display:inline;
+    padding-right: 30px;
+}
+.navigation ul
+{
+    float: right;
+    padding-top: 15px;
+}
+.navigation  ul li a
+{
+    text-transform: uppercase ;
+}
+.navigation ul li a:hover 
+{
+    color: rgb(208, 132, 34);
+}
+  img
+  {
+    max-width: 100%; 
+  }
+  .banner h1
+  {
+    position: absolute;
+    top:300px;
+    left:36%;
+    color:rgb(208, 132, 34)
+  }
+  .banner h1:hover 
+  {
+    text-shadow: 5px 4px 7px red;
+  }
+  .P-40
+  {
+    padding: 40px;
+  }
+  p
+  {
+    text-align: justify;
+    line-height: 28px;
+  }
+  .P-40 h1
+  {
+    text-align: center;
+  }
+  .services
+  {
+    width: 100%;
+    height: 620px;
+  }
+  .service1
+  {
+    width: 25%;
+    float: left;
+  }
+  /* .service1 img {
+    width: 100%;
+    height: auto;
+  } */
+.m-15
+{
+    margin: 15px;
+}
+.service1 h4
+{
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.service1 .m-15
+{
+    border: 2px solid rgb(116, 112, 112);
+    background-color: #fff;
+}
+.service1 .m-15:hover
+{
+    background-color: rgb(208, 132, 34);
+    color: #fff;
+}
+.bg-primary
+{
+    background-color:honeydew;
+}
+.bg-primary h1
+{
+    text-align: center;
+    padding-top: 30px;
+}
+.contactfooter
+{
+    width: 100%;
+    height: 120px;
+}
+.footer_part
+{
+    width: 33.3%;
+    float:left;
+}
+.fz-30
+{
+    font-size: 23px;
+    font-weight: 600;
+}
+.border
+{
+   border: 2px solid #ccc; 
+   margin:20px;
+   border-bottom: 2px solid rgb(199,134,14);
+}
+.footer_part p
+{
+    text-align: center;
+}
+.topfooter
+{
+    width: 100%;
+    height: 330px;
+}
+.topfooterpart
+{
+    width: 25%;
+    float: left;
+}
+.topfooterpart ul
+{
+    padding: 0px 15px;
+}
+.topfooterpart ul li
+{
+    margin:20px;
+}
+.m-30
+{
+    margin:30px
+}
+.topfooterpart h5::before
+{
+content:'';
+position:absolute;
+width: 200px;
+height: 2px;
+border-bottom: 2px solid red;
+top: 93px;
+}
+.bottomfooter
+{
+    width: 100%;
+    height:100px
+}
+.bottomfooterpart
+{
+    width: 50%;
+    float: left;
+}
+.design
+{
+    float: right;
+}
+.bg-image
+{
+    background-image: url(/Users/MERN/Class 16/images/slider/bgi-12.jpg);
+    width:100%;
+    height:300px;
+    background-size:cover;
+    background-position:center center;
+    background-repeat: no-repeat;
 }
