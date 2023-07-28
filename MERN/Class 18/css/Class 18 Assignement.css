@@ -1,0 +1,98 @@
+
+/* @font-face
+{
+    font-family: myfont;
+    src: url('/Users/Study Material/MERN/Borel-Regular.ttf');
+}
+.c1 p
+{
+font-family: myfont;
+color: cornflowerblue;
+font-size: 30px;
+} */
+/* .abc
+{
+    width: 200px;
+    height: 200px;
+    color: azure;
+    background:-webkit-linear-gradient(#ff4b2b, #ff416c, #ff4b2b, #ff7519, #ffb900);
+    background:-o-linear-gradient(#ff4b2b, #ff416c, #ff4b2b, #ff7519, #ffb900);
+    background:-moz-linear-gradient(#ff4b2b, #ff416c, #ff4b2b, #ff7519, #ffb900);
+    background:linear-gradient(#ff4b2b, #ff416c, #ff4b2b, #ff7519, #ffb900);
+    /* background:linear-gradient(to right,#ff4b2b, #ff416c, #ff4b2b, #ff7519, #ffb900); */
+    /* background:linear-gradient(to bottom right,#ff4b2b, #ff416c, #ff4b2b, #ff7519, #ffb900); */
+    /* background:linear-gradient(20deg,#ff4b2b, #ff416c, #ff4b2b, #ff7519, #ffb900); */
+    /* background:repeating-linear-gradient(20deg,#ff4b2b 5%, #ff416c 10%, #ff4b2b 15%, #ff7519 20%, #ffb900 25%); */
+    /* background:radial-gradient(#ff4b2b, #ff416c, #ff4b2b, #ff7519, #ffb900); */
+    /* background:repeating-radial-gradient(#ff4b2b 5%, #ff416c 10%, #ff4b2b 15%, #ff7519 20%, #ffb900 25%); */
+    /* border-radius: 50%; */
+    /* background:repeating-conic-gradient(#ff4b2b 5%, #ff416c 10%, #ff4b2b 15%, #ff7519 20%, #ffb900 25%);   */
+} */
+/* div
+{
+    background-color:aqua;
+    width: 200px;
+    height: 90px;
+    margin-bottom: 30px;
+} */
+/* .xyz
+{
+    transform: rotate(20deg);
+} */
+/* .xyz:hover
+{
+    transform: rotate(20deg);
+} */
+/* .xyz
+{
+    transform: rotate(-20deg);
+} */
+/* .xyz
+{
+    transform: skewX(30deg);
+} */
+/* .xyz
+{
+    transform: skewY(30deg);
+} */
+/* .xyz
+{
+    transform: skew(20deg,30deg);
+} */
+/* .xyz:hover
+{
+    transform: scale(1.5);
+} */
+/* .xyz:hover
+{
+    transform: scale(0.5);
+} */
+/* .xyz:hover
+{
+    transform: translateX(20px);
+} */
+/* .xyz
+{
+    transform: rotateX(130deg);
+} */
+/* div
+{
+    transform: rotateY(130deg);
+} */
+/* .xyz
+{
+    transform: rotateZ(130deg);
+} */
+/* img:hover
+{
+    transform: rotate(30deg);
+} */
+p
+{
+    border: 2px solid red;
+    width: 300px;
+    /* white-space: nowrap;
+    overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    word-break: break-all;
+}
