@@ -1,0 +1,338 @@
+/* Top Bar Start  */
+.topbar,.bg-main
+{
+    background-color:cadetblue; /*Changing the topbar background-color */;
+}
+.topbar ul li
+{
+    display: inline;
+    padding-right: 30px;
+}
+a
+{
+    text-decoration: none;
+}
+.topbar ul li a
+{
+    color:rgb(52, 51, 51);
+    font-weight: 600;
+}
+
+.logo img {
+    max-width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensure proper alignment and spacing */
+    margin: 0 auto; /* Center the image horizontally */
+}
+/* Top Bar End  */
+
+/* Navigation Bar Start */
+
+
+
+/* Center the navbar horizontally */
+.navbar {
+    display: flex;
+    justify-content: center;
+    /* background-color: gainsboro; */
+}
+
+
+/* Adjust the width of the navbar if needed */
+.navbar-expand-sm {
+    max-width: 800px; /* Adjust as needed */
+    width: 500px;
+}
+
+/* Custom styling for the pills navigation */
+.nav-pills .nav-link {
+    border-radius: 50px; /* Adjust the value to control the roundness of the pills */
+
+}
+
+/* Style for the active pill */
+.nav-pills .nav-link.active {
+    background-color: #000000; 
+    color: white; 
+} 
+
+ /* ====== BREADSCRUMB CSS STARTS =====    */
+/* .breadscrumb-section img
+{
+    background-image: url("/Users/Study Material/MERN/Class 34/images/2020-08-27.jpg");
+    width: 100%;
+}
+.breadscrumb-section h2,ul li a, .breadscrumb-item active {
+    color: #fff;
+} */
+
+.breadscrumbbanner{
+    background-image: url("/Users/Study Material/MERN/Class 34/images/2020-08-27.jpg");
+    padding:35px 0px;
+    background-size: cover;
+    background-position:center center;
+  }
+
+/* .breadscrumbbanner h4,.breadscrumbbanner ul li a, .breadscrumbbanner .active
+{
+    color:#fff;
+} */
+
+.breadscrumbbanner h4,
+.breadscrumbbanner ul li a,
+.breadscrumbbanner ul li.active {
+    color: #fff;
+}
+
+.breadscrumb {
+    display: flex; /* Use flexbox to display items in a row */
+    align-items: center; /* Center items vertically within the container */
+}
+
+
+.breadscrumb-item+.breadscrumb-item::before{
+    /* float:left; */
+    padding-right: 0 0.5rem;
+    color:yellow;
+    content: var(--bs-breadscrum-divider,"/");
+}
+
+.breadscrumb-item::before {
+    content: none;
+}
+
+ /* ===== BREADSCRUMB CSS END =====   */
+
+
+
+
+
+/* WHY CHOOUSE US START */
+/* .tmode
+{
+    padding: 40px 0px;
+}
+.tmode img
+{
+    width:130px
+}
+.bg-tmain
+{
+    background-color:#d9f5f8a3;
+    padding: 20px 0px;
+}
+.bg-tmain h6
+{
+    padding: 28px 0px 0px;
+}
+.bg-tmain p
+{
+    padding: 5px 20px;
+}
+.rounded-5
+{
+    border-radius: 30px;
+    border-color: orange;
+}
+@media(max-width:650px)
+{
+    .socialmedia
+    {
+        display: none;
+    }
+    .services .col-md-3
+    {
+        width:50%;
+        
+    }
+    .about .bx-shadow
+    {
+        width:300px;
+        margin: 0px auto;
+    }
+
+} */
+
+.why-choose-us {
+    padding: 40px 0;
+    text-align: center; 
+}
+
+.why-choose-us h3 {
+    margin-bottom: 20px;
+}
+.color1 {
+    color:cadetblue;
+}
+
+
+.image-section {
+    padding: 40px 0;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-container {
+    flex: 1;
+    max-width: calc(25% - 20px); /* Adjust this value for spacing */
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.image-container h4 {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.image-container p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* WHY CHOOSE US END  */
+
+
+/* =====FOOTER PART CSS===== */
+
+ /* TOP FOOTER PART START */
+ .footer-top {
+    background-color:cadetblue;
+    margin-top: 5px;
+ 
+}
+.footer-about {
+    padding-right: 10px;
+	text-align:justify;
+}
+.footer-about p {
+    color: #fff;
+    padding-top: 15px;
+}
+.footer-about ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer-about ul li:last-child {
+    margin-right: 0;
+}
+.footer-about ul li a {
+    width: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #000000;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.footer-about ul li a:hover {
+    background-color: orange;
+    color: #021d3a;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.footer-title h6 {
+    font-size: 18px;
+    color: #fff;
+    
+}
+.footer-link {
+    overflow: hidden;
+}
+.footer-link ul {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.footer-link ul li {
+    line-height: 35px;
+}
+.footer-link ul li a {
+    color: #fff;
+    font-size: 15px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.footer-link ul li a i {
+    margin-right: 8px;
+    color: orange;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.footer-link ul li a:hover {
+    color: orange;
+}
+.footer-link ul li a:hover i {
+    margin-right: 15px;
+}
+.support ul {
+    float: none;
+    width: 100%;
+}
+.footer-address ul li {
+    position: relative;
+    margin-bottom: 10px;
+}
+.footer-address ul li:last-child {
+    margin-bottom: 0;
+}
+.footer-address ul li .icon i {
+    font-size: 18px;
+    color: orange;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.footer-address ul li .cont {
+    padding-left: 35px;
+}
+.footer-address ul li .cont p {
+    color: #fff;
+}
+/* TOP FOOTER END */
+
+/* BOTTOM FOOTER START  */
+.footer-copyright {
+    background-color: #000000;
+}
+.footer-copyright .copyright p {
+    color: #fff;
+}
+.footer-copyright .copyright p span {
+    font-weight: 600;
+}
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    background-color: #ffc600;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 5px;
+    z-index: 99;
+    text-align: center;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    display: none;
+}
+.back-to-top:hover {
+    color: #fff;
+    background-color: #021d3a;
+}
+/* BOTTOM FOOTER END  */
